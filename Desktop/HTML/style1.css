@@ -1,0 +1,48 @@
+.signup {
+
+    padding: 3%;
+    border-radius: 5%;
+    border-width: .5cm;
+    display: inline-block;
+    background-color: rgb(16, 39, 58);
+
+}
+
+#inside-signup {
+
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    color: aliceblue;
+    -webkit-text-stroke-width: 100%;
+
+}
+
+.top {
+    display: block;
+}
+
+.login {
+    padding: 10px 20px;
+    background-color: #f44336;
+    width: 50%;
+}
+
+.sign_up {
+    padding: 10px 20px;
+    background-color: #47f498;
+    float: left;
+    width: 50%;
+}
+
+.getstart {
+    background-color: #04AA6D;
+    padding: 14px 10px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 160%;
+    display: inline-block;
+    width: 100%;
+}

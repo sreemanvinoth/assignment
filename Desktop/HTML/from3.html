@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+    
+</head>
+<style>
+    #display {
+        margin: 10%;
+        margin-left: 32%;
+    }
+
+    fieldset {
+        border: 2px rgb(240, 36, 36) solid;
+        width: fit-content;
+    }
+
+    button {
+        padding: 5px 5px;
+    }
+
+    #content {
+        width: 10cm;
+        height: 2cm;
+        text-transform: uppercase;
+        align-self: baseline;
+    }
+</style>
+
+<body class="container">
+    <div id="display" class="row mt-5">
+        <table>
+
+            <form action="" class="form3">
+                <fieldset>
+
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br><br>
+
+                    <label for="dept">Department</label>
+                    <input type="text" id="dept" name="dept">
+                    <br><br>
+
+                    <label for="pswd">Password</label>
+
+                    <input type="text" id="pswd" name="pswd"> <sup>*</sup>Must have one uppercae and a lower case
+
+                    <br><br>
+
+                    <label for="">Gender</label>
+
+                    <input type="radio" id="html" value="HTML">
+                    <label for="html">HTML</label>
+
+                    <input type="radio" id="css" value="CSS">
+                    <label for="css">CSS</label>
+
+                    <input type="radio" id="php" value="PHP">
+                    <label for="php">PHP</label>
+
+                    <input type="radio" id="java" value="JAVA">
+                    <label for="java">JAVA</label>
+
+                    <input type="radio" id="ruby" value="RUBY">
+                    <label for="ruby">RUBY</label>
+                    <br><br>
+
+                    <label for="">Marital Status</label>
+                    <select name="" id="">
+                        <option value="">Yes</option>
+                        <option value="">No</option>
+                    </select>
+                    <br><br>
+                    <textarea type="text" placeholder="Your Bio ... max 20 words" id="content"
+                        name="content"></textarea>
+
+                    <br><br>
+                    <button>Submit</button>
+
+
+                </fieldset>
+            </form>
+
+        </table>
+    </div>
+</body>
+
+</html>
